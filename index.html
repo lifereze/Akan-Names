@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quattrocento,Playfair+Display+SC,Sorts+Mill+Goudy &display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="container-fluid">
     <center>
@@ -19,33 +19,43 @@
         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
         <h1>Know Yours Now</h1>
       </div>
-    </center>
+    
+
   <div class="overlay">
 
       <div class="container">
         <h2>Fill in the Form </h2>
+      </center>
 
-        <div class="form">
         <form name="myForm" class="form-check-inline" onsubmit="validate();">
             
+          <center>
             <div class="form-group">
               <label for="number">Year Of Birth</label>
               <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
             </div>
+          </center>
 
+          <center>
             <div class="form-group">
               <label for="month">Month of Birth:</label>
               <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
             </div>
+          </center>
 
+          <center>
             <div class="form-group">
               <label for="date">Date of Birth:</label>
               <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
             </div>
+          </center>
 
+          <center>
             <div class="form-group">
-              <label for="month">Gender</label><br>
+              <label for="gender">Gender</label><br>
+            </center>
 
+            <center>
               <div class="form-check-inline">
                 <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
@@ -57,13 +67,15 @@
                   <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
                 </label>
               </div>
-
+            </center>
             </div>
 
-          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+             <center>
+                <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+             </center>
           <br>
         </form>
-      </div>
+
         
         <p id="results"> </p>
       </div>

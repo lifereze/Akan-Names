@@ -1,7 +1,11 @@
 .container-fluid{
-    background-image: url("images/background.jpeg");
+    
 }
 .form{
     align-content: center;
     left: 120px;
+    background-image: url("images/background.jpeg");
+}
+,overlay{
+    line-height: 100px;
 }
