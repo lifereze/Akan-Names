@@ -70,7 +70,7 @@ body{
       height: 50%;
       border-radius: 100%;
     }
-  }
+   }
   #heading img{
     float: right;
     width: 10%;
@@ -83,10 +83,7 @@ body{
     color: rgb(0, 0, 0);
   }
   .card-deck{
-    padding-bottom: 20px;
-    font-weight: 600;
-    font-family: 'Sorts Mill Goudy', serif;
-    font-size: 18px;
+display: none;
   }
   .footer-copyright{
     color: rgb(255, 255, 255);
