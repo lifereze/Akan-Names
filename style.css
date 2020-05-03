@@ -63,9 +63,9 @@ body{
     }
     }
     #heading img{
-      float: right;
-      width: 20%;
-      height: 20%;
+      float: left;
+      width: 10%;
+      height: 10%;
       border-radius: 100%;
     }
    }
@@ -75,7 +75,7 @@ body{
     margin-top: 5px;
   }
   .card{
-    background: rgb(145, 168, 192);
+    background-color: darkgray;
   }
   .card-body{
     color: rgb(0, 0, 0);
