@@ -7,7 +7,6 @@
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
-  background-image: url("images/background.jpeg");
 }
 
 *,
