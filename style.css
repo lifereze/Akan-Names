@@ -1,7 +1,8 @@
 body{
+    background: rgba(0, 0, 0, .65);
+    background-blend-mode: darken;
     background-image: url("images/background.jpeg");
     background-size: cover;
-    opacity: 0.8;
 }
 body{
     background-position: center center;
@@ -28,20 +29,19 @@ body{
      background-color: rgb(0,0,0,0.5);
      margin-left: 25%;
      margin-right: 25%;
-     opacity: 0.8;
      border-radius: 15px;
    }
    .form{
     margin-bottom: 20px;
   }
   .form-group{
-    color: rgb(255, 255, 255);
+    color: rgb(240, 228, 228);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Lucida Console', serif;
   }
   .form-check-label{
-    color: rgb(21, 26, 25);
+    color: rgb(231, 229, 229);
   }
   input[type="radio"] {
     -webkit-transform: scale(1.5);
@@ -75,10 +75,8 @@ body{
     margin-top: 5px;
   }
   .card{
-    background-color: darkgray;
-  }
-  .card-body{
-    color: rgb(0, 0, 0);
+    background-color: rgb(156, 194, 228);
+    color: black;
   }
   .card-deck{
    margin-bottom: 10px;
