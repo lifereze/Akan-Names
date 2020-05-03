@@ -14,6 +14,7 @@
 * After taking the data, it is expected to calculate the specific day in which the user was born e.g sunday.
 * Check if the user is a Male or Female.
 * Give out a name according to the day on which the user was born.
+* The formula for day calculation Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 ## Technologies used
 * HTML
 * CSS
